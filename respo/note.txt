@@ -1,0 +1,11 @@
+@RestController和@Controller区别？
+两个Date进行比较，可以先getTime()再进行比较
+<i> 标签显示斜体文本效果。
+Math.pow(x,y)的作用就是计算x的y次方，其计算后是浮点数
+
+@Value("${}")可以获取配置文件的值
+
+windows cmd
+netstat -ano|findstr "80" 查看 端口号包含"80"的占用情况
+tasklist|findstr "1828" 根据pid（进程id） 查询对应的应用程序
+taskkill /f /t /im java.exe 根据名称 结束该程序
