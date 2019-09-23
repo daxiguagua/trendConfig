@@ -9,3 +9,13 @@ windows cmd
 netstat -ano|findstr "80" 查看 端口号包含"80"的占用情况
 tasklist|findstr "1828" 根据pid（进程id） 查询对应的应用程序
 taskkill /f /t /im java.exe 根据名称 结束该程序
+
+Spring等框架都是Java EE开源生态系统的一部分
+
+我们推荐的Java学习路线图如下：
+首先要学习Java SE，掌握Java语言本身、Java核心开发技术以及Java标准库的使用；
+如果继续学习Java EE，那么Spring框架、数据库开发、分布式架构就是需要学习的；
+如果要学习大数据开发，那么Hadoop、Spark、Flink这些大数据平台就是需要学习的，他们都基于Java或Scala开发；
+如果想要学习移动开发，那么就深入Android平台，掌握Android App开发。
+
+Java源码本质上是一个文本文件，我们需要先用javac把Hello.java编译成字节码文件Hello.class，然后，用java命令执行这个字节码文件
